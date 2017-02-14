@@ -320,4 +320,3 @@ module.exports = createFactory
         (d.div {style: color: 'green'}, @state.errorMessage) if @state.successMessage?
         Header(_.merge {ref: 'header', myProfileSummary: @props.myProfileSummary}, sharedProps)
         primaryComponent.component(componentProps)
-

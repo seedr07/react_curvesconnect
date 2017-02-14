@@ -1,10 +1,10 @@
 {
-  "name": "cvc-dating site",
+  "name": "curvesconnect",
   "version": "0.0.0",
-  "description": "CVC UI",
+  "description": "CurvesConnect UI",
   "main": "lib/cvc_server.js",
   "private": true,
-  "autoScalingGroupName": "CVC_WEB_SERVER",
+  "autoScalingGroupName": "CURVES_WEB_SERVER",
   "awsProfile": "fmp",
   "scripts": {
     "test": "mocha --reporter spec --compilers coffee:coffee-script/register test/**/*.coffee",
